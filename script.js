@@ -99,49 +99,58 @@ typeof(1 != 2)
 
 "1" + "3" 
 // Prediction:13
-// Actual:13
+// Actual:'13'
 
 "1" - "3"
-// Prediction:
-// Actual:
+// Prediction:-2
+// Actual: -2
 
 "johnny" + 5
-// Prediction:
-// Actual:
+// Prediction:johny5
+// Actual:johny5
 
 "johnny" - 5
-// Prediction:
-// Actual:
+// Prediction:NaN
+// Actual:NaN
 
 99 * "hello"
-// Prediction:
-// Actual:
+// Prediction:NaN
+// Actual:NaN
 
 1 != 1
-// Prediction:
-// Actual:
+// Prediction:false
+// Actual:false
 
-1 == "1"
-// Prediction:
-// Actual:
+1 == "1" 
+// Prediction: true
+// Actual:true
 
 1 === "1"
-// Prediction:
-// Actual:
+// Prediction:false
+// Actual:false
 
 // Exercice 6
 
 5 + "34"
-// Prediction:
-// Actual:
+// Prediction: 534
+// Actual:'534'
 
 5 - "4"
-// Prediction:
-// Actual:
+// Prediction: 1
+// Actual: 1
 
 10 % 5
-// Prediction:
-// Actual:
+// Prediction:0
+// Actual:0
+
+
+
+
+
+
+
+
+
 
 5 % 10
 // Prediction:
