@@ -36,7 +36,7 @@
              // suprimer l'element black mirror
              delete myWatchedSeries[1];
              // afficher la troisieme lettere de mon tableau
-            console.log(myWatchedSeries[2].slice(0,3))
+            console.log(myWatchedSeries[2].slice(0,1))
 
             //afficher la matrice
                 console.log(myWatchedSeries);
@@ -46,10 +46,7 @@
                 console.log(ajout);
 
                 myWatchedSeries.push("Avanger");
-                //consile.log(myWatchedSeries)
-
-                // ajouter une autre serie preferé à la fin des éléments du tableau
-
+               
                 //Exercice 3
                 //conversion de temperature 
             const temperature = 37 ;
